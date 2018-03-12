@@ -10,7 +10,7 @@ def countdown(n)
 end
 
 def countdown_with_sleep(n)
-  time = n * 1000
-  sleep(time)
+  # time = n * 1000
+  sleep(n)
   countdown(n)
 end
