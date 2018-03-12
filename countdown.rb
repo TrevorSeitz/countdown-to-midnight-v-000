@@ -1,9 +1,15 @@
 #write your code here
 
-def countdown
-  counter = 10
-  while counter > 0 
+def countdown(n)
+  counter = n
+  while counter > 0
     puts "#{counter} SECOND(S)!"
   end
   puts "HAPPY NEW YEAR!"
+end
+
+def countdown_with_sleep(n)
+  time = n * 1000
+  sleep(time)
+  countdown(n)
 end
